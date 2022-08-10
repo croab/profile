@@ -43,7 +43,7 @@ body {
 }
 
 .banner {
-  height: 45vh;
+  height: 55vh;
   background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("images/background-2.jpeg");
   background-size: cover;
   color: white;
