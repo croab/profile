@@ -1,3 +1,8 @@
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/footer.css');
+@import url('components/card.css');
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -21,8 +26,8 @@
 
 body {
   position: relative;
-  background-color: #f5f1eb;
   font-family: 'Montserrat', sans-serif;
+  background-color: #FFFFFF;
   color: #292929;
   font-size: 16px;
   font-weight: 400;
@@ -31,24 +36,9 @@ body {
   min-height: 800px;
 }
 
-.banner-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
 .container {
-  margin-left: 80px;
-  margin-right: 80px;
-}
-
-.banner {
-  height: 55vh;
-  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("images/background-2.jpeg");
-  background-size: cover;
-  color: white;
-  text-align: center;
-  background-color: #9ED2C6;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .center {
@@ -65,7 +55,7 @@ body {
 h1, h2 {
   color: rgba(255, 255, 255, 0.935);
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 15px;
 }
 
@@ -79,33 +69,3 @@ h1 {
 h2 {
   font-size: 23px;
 }
-
-a {
-  color: #2a2a2a;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #545454;
-}
-
-.button-medium {
-  background-color: #d6d6d6;
-  width: 150px;
-  height: 50px;
-  border-radius: 30px;
-  /* text-align: center; */
-  border: 1px solid #2a2a2a;
-}
-
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-/* .social-media-links {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  height: 2.5rem;
-} */
