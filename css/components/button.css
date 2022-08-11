@@ -1,0 +1,17 @@
+.button-medium a {
+  color: #278281;
+  text-decoration: none;
+}
+
+.button-medium:hover {
+  color: #54BAB9;
+}
+
+.button-medium {
+  background-color: #9ED2C6;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  /* text-align: center; */
+  border: 1px solid #278281;
+}
