@@ -1,3 +1,7 @@
+.banner-content h2 {
+ line-height: 25px;
+}
+
 .banner-image {
   width: 150px;
   height: 150px;
@@ -7,6 +11,7 @@
 
 .banner {
   height: 55vh;
+  width: 100%;
   background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("../../images/background-2.jpeg");
   background-size: cover;
   color: white;

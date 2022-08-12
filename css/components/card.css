@@ -1,15 +1,13 @@
-.container h2 {
+.container-skills h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #292929;
 }
 
-.cards {
+.card-center {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0 50px;
+  justify-content: center;
 }
 
 .card {
@@ -23,6 +21,18 @@
   text-align: center;
 }
 
+.card h3 {
+    margin: 5px 0;
+}
+
 .card img {
   width: 100%;
+}
+
+@media (max-width: 300px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    height: 140px;
+    width: 100px;
+  }
 }
